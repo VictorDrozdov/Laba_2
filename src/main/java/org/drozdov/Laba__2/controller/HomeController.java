@@ -7,6 +7,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class HomeController {
@@ -15,10 +16,10 @@ public class HomeController {
 
 
     @RequestMapping(value = "/")
-    public String home(Model model){
+    public String home(@RequestParam(value = "name", required = false, defaultValue = "stranger") String name, Model model){
         context = new AnnotationConfigApplicationContext(JavaConfig.class);
         Sender sender = context.getBean("wirelessSenderImpl",Sender.class);
-        model.addAttribute("msg",sender.sendMessage("Message from Java config"));
+        model.addAttribute("msg",sender.sendMessage("Hello "+name+"!"));
         return "test";
     }
 }
