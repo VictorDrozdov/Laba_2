@@ -17,7 +17,7 @@ public class HomeController {
     @RequestMapping(value = "/")
     public String home(){
         context = new AnnotationConfigApplicationContext(JavaConfig.class);
-        Sender sender = context.getBean("sender",Sender.class);
+        Sender sender = context.getBean("wirelessSenderImpl",Sender.class);
         return sender.sendMessage("Message from Java config");
     }
 }
