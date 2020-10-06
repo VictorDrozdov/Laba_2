@@ -9,21 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ebefe79-bf0b-4e60-8f15-46bc678f9a1e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/drozdov/Laba__2/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/drozdov/Laba__2/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/test.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Laba__2/WEB-INF/spring-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Laba__2/WEB-INF/spring-servlet.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/drozdov/Laba__2/controller/HomeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/drozdov/Laba__2/implement/JavaConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/drozdov/Laba__2/implement/ReceiverImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/drozdov/Laba__2/implement/SenderImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/drozdov/Laba__2/implement/WirelessSenderImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/drozdov/Laba__2/inetrface/Receiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/drozdov/Laba__2/inetrface/Sender.class" beforeDir="false" />
-    </list>
+    <list default="true" id="7ebefe79-bf0b-4e60-8f15-46bc678f9a1e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +26,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -162,7 +154,7 @@
       <workItem from="1601655570850" duration="9283000" />
       <workItem from="1601827787450" duration="24000" />
       <workItem from="1601898017284" duration="4548000" />
-      <workItem from="1601995383260" duration="2029000" />
+      <workItem from="1601995383260" duration="2362000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1">
       <created>1601295497858</created>
@@ -262,14 +254,20 @@
       <option name="project" value="LOCAL" />
       <updated>1601667029399</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Commit 1">
+      <created>1601997691092</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601997691092</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit 1" />
     <MESSAGE value="Commit 2" />
     <MESSAGE value="Commit 3" />
     <MESSAGE value="Commit 4" />
@@ -278,7 +276,8 @@
     <MESSAGE value="Commit 7" />
     <MESSAGE value="Commit 8" />
     <MESSAGE value="Commit 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 9" />
+    <MESSAGE value="Commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="266" y="18" key="#Inspections" timestamp="1601657935644">
@@ -309,10 +308,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="370" y="0" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1280.680@0.0.1280.680" timestamp="1601294640534" />
-    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1601667028712">
+    <state x="263" y="0" key="CommitChangelistDialog2" timestamp="1601997689169">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1601667028712" />
+    <state x="263" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1601997689169" />
     <state x="420" y="81" key="FileChooserDialogImpl" timestamp="1601997082269">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -369,14 +368,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601899902818" />
-    <state x="232" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601667038420">
+    <state x="232" y="73" key="Vcs.Push.Dialog.v2" timestamp="1601997712853">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="232" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601667038420" />
-    <state x="381" y="211" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601997229725">
+    <state x="232" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1601997712853" />
+    <state x="381" y="211" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601997666237">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="381" y="211" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601997229725" />
+    <state x="381" y="211" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1601997666237" />
     <state x="90" y="1" key="new project wizard" timestamp="1601827811484">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
