@@ -7,9 +7,9 @@ import org.drozdov.Laba__2.inetrface.Sender;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
@@ -17,7 +17,7 @@ import java.util.List;
 public class HomeController {
 
     private org.springframework.context.annotation.AnnotationConfigApplicationContext context;
-
+    private Collection<User> users = new ArrayList<>();
 
 
         @RequestMapping(value = "/{name}")
@@ -29,12 +29,21 @@ public class HomeController {
         }
         @RequestMapping(value = "/")
         public String getUsers(Model model){
-            Collection<User> users = List.of(
-                    new User("Ivan","Ivanov","ivan@gmail.com"),
-                    new User("Petr","Petrov","petr@gmail.com")
-            );
+
             model.addAttribute("users",users);
             return "users";
+        }
+        @GetMapping(value = "/")
+        public String getSignUp(){
+            return "sign_up";
+        }
+        @PostMapping(value = "/")
+        public String getSignUp(@RequestParam("name") String name,
+                                @RequestParam("surname") String surname,
+                                @RequestParam("email") String email){
+            users.add(new User( name, surname, email));
+            return "redirect:/users";
+
         }
     }
 
