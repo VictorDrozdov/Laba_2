@@ -38,10 +38,8 @@ public class HomeController {
             return "sign_up";
         }
         @PostMapping(value = "/")
-        public String getSignUp(@RequestParam("name") String name,
-                                @RequestParam("surname") String surname,
-                                @RequestParam("email") String email){
-            users.add(new User( name, surname, email));
+        public String getSignUp(@ModelAttribute User user){
+            users.add(user);
             return "redirect:/users";
 
         }
