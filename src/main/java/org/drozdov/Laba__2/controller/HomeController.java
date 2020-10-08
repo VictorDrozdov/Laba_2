@@ -27,7 +27,7 @@ public class HomeController {
             model.addAttribute("msg",sender.sendMessage("Hello "+name+"!"));
             return "test";
         }
-        @RequestMapping(value = "/")
+        @RequestMapping(value = "/users")
         public String getUsers(Model model){
 
             model.addAttribute("users",users);
