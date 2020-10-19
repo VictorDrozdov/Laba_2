@@ -1,5 +1,6 @@
 package org.drozdov.Laba__2.controller;
 
+import jakarta.validation.Valid;
 import org.drozdov.Laba__2.entity.User;
 import org.drozdov.Laba__2.implement.JavaConfig;
 
@@ -7,8 +8,10 @@ import org.drozdov.Laba__2.inetrface.Sender;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
+import javax.naming.Binding;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -34,11 +37,15 @@ public class HomeController {
             return "users";
         }
         @GetMapping(value = "/")
-        public String getSignUp(){
+        public String getSignUp(Model model){
+            model.addAttribute("user", new User());
             return "sign_up";
         }
         @PostMapping(value = "/")
-        public String getSignUp(@ModelAttribute User user){
+        public String getSignUp(@ModelAttribute @Valid User user, BindingResult result){
+            if(result.hasErrors()){
+                return "sign_up";
+            }
             users.add(user);
             return "redirect:/users";
 
