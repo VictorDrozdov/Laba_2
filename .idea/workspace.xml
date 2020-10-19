@@ -9,14 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ebefe79-bf0b-4e60-8f15-46bc678f9a1e" name="Default Changelist" comment="">
+    <list default="true" id="7ebefe79-bf0b-4e60-8f15-46bc678f9a1e" name="Default Changelist" comment="Laba3_6">
       <change beforePath="$PROJECT_DIR$/../Laba_2/Lab_2" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba_2/Lab_2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/drozdov/Laba__2/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/drozdov/Laba__2/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Laba__2/WEB-INF/classes/org/drozdov/Laba__2/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Laba__2/WEB-INF/classes/org/drozdov/Laba__2/controller/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Laba__2/WEB-INF/classes/org/drozdov/Laba__2/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Laba__2/WEB-INF/classes/org/drozdov/Laba__2/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/drozdov/Laba__2/controller/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/drozdov/Laba__2/controller/HomeController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,6 +169,7 @@
       <workItem from="1602429427368" duration="2027000" />
       <workItem from="1602502241819" duration="2635000" />
       <workItem from="1602695536264" duration="40000" />
+      <workItem from="1603095801025" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1">
       <created>1601295497858</created>
@@ -318,7 +313,8 @@
     <MESSAGE value="Laba3_2" />
     <MESSAGE value="Laba3_3" />
     <MESSAGE value="Laba3_4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Laba3_4" />
+    <MESSAGE value="Laba3_5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laba3_5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="232" y="0" key="#Deployment" timestamp="1601998107068">
